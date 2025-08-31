@@ -135,8 +135,9 @@ init:
 	$(MAKE) app-horizon-install
 	$(MAKE) db-setup
 	$(MAKE) swagger
-	$(MAKE) compose-restart
-	$(MAKE) quality-all
+	$(MAKE) compose-stop
+	$(MAKE) compose-up
+	$(MAKE) quality-test
 
 # -------------------------------------------------------------------
 # Utils

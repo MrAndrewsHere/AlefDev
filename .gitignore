@@ -23,7 +23,7 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
-/bootstrap/cache
+/bootstrap/cache/*
 
 **/caddy
 frankenphp
