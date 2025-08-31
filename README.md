@@ -7,6 +7,7 @@
 - Laravel 12 (Octane/FrankenPHP) 
 - PostgreSQL
 - Redis
+- Docker-Compose
 
 #### Dashboards:
 - App http://127.0.0.1/
@@ -30,12 +31,15 @@ cp -n .env.testing.example .env.testing
 ```bash
 APP_NAMESPACE=value # value - префикс к сервисам docker-compose 
 ```
-3. Инициализация проекта:
+3. Инициализация проекта (Docker-Compose):
 
 Makefile:
 ```bash
 make init
 ```
+
+или
+
 Taskfile (https://taskfile.dev/docs/installation#get-the-binary):
 ```bash
 task init
