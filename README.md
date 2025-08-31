@@ -44,6 +44,8 @@ Taskfile (https://taskfile.dev/docs/installation#get-the-binary):
 ```bash
 task init
 ```
+
+Makefile для работы над проектом [Makefile documentation](./Makefile.md).
 ## Тестовое задание
 
 REST API для системы управления студентами, классами и лекциями.
@@ -93,31 +95,4 @@ REST API для системы управления студентами, кла
 - Использовать DTO для работы с пользовательскими данными
 
 
-### Commonly used tasks
 
-```bash
-make/task exec # контейнер laravel
-```
-```bash
-make/task up
-```
-```bash
-make/task stop
-```
-```bash
-make/task tink
-```
-```bash
-make/task check # проверка качества кода
-```
-
-
-
-## Code quality: 
-```bash
-make check
-```
-или
-```bash
-task check
-```
